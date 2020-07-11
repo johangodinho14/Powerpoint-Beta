@@ -49,8 +49,9 @@ p{
 .options-section button:hover{
     opacity: 0.9;
 }
-.options-section img{
+.options-section img, .content-container img{
     width: 20%;
+    height: auto;
 }
 .options-section h1 , .header h1{
     font-size: 50px;
@@ -96,5 +97,6 @@ h2{
 
 .content{
     padding: 15px;
+    font-family: calibri;
 }
 
