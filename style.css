@@ -52,10 +52,49 @@ p{
 .options-section img{
     width: 20%;
 }
-
-
-.options-section h1{
+.options-section h1 , .header h1{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: #4C4848;
 }
+.header h1{
+    color: tomato;
+}
+
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4C4848;
+}
+.header{
+    height: 100px;
+    padding: 10px;
+    border-bottom: rgb(238, 81, 81) solid 8px;
+}
+.header p{
+    position: relative;
+    color: red;
+    opacity: 0.6;
+    font-weight: 600;
+    font-size: large;
+}
+.content-container{
+    position: relative;
+    width: 75%;
+    height: 60vh;
+    display: block;
+    margin: 0 auto;
+    margin-top: 55px;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.content{
+    padding: 15px;
+}
+

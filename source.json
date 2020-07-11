@@ -1,0 +1,8 @@
+{
+    "slide1":[
+        {"title"    :"My favorite colour"},
+        {"content"  :"My favorite colour is red \n I like things that are red in colour such as <li>apples</li><li>starwberries</li>. Here are some pictures of my favorite fruits \n"},
+        {"img"      :"./images/defaultImage.png"}
+
+    ]
+}
