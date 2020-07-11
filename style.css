@@ -68,8 +68,6 @@ h2{
     color: #4C4848;
 }
 .header{
-    height: 100px;
-    padding: 10px;
     border-bottom: rgb(238, 81, 81) solid 8px;
 }
 .header p{
@@ -94,9 +92,18 @@ h2{
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
-
 .content{
     padding: 15px;
     font-family: calibri;
 }
-
+.slide-controls img{
+    position: absolute;
+    top: 50%;
+    width: 10%;
+}
+.left-arrow{
+    left: 0%;
+}
+.right-arrow{
+    right: 0%;
+}
