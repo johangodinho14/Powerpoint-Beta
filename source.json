@@ -2,12 +2,14 @@
     "slide1":[
         {"title"    :"My favorite colour"},
         {"content"  :"My favorite colour is red I like things that are red in colour such as <p></p> <li> apples </li> <li> starwberries </li> \n <p></p> Here are some pictures of my favorite fruits \n"},
-        {"img"      :"./images/fruit.jpg"}
+        {"img"      :"./images/fruit.jpg"},
+        {"notes"    :"these are some notes for slide 1"}
     ],
 
     "slide2":[
         {"title"    :"My favorite animal"},
         {"content"  :"My favorite animals are <p></p> \n <li> lions </li> <li> tigers </li> \n <p></p> and more"},
-        {"img"      :"./images/animals.jpg"}  
+        {"img"      :"./images/animals.jpg"},
+        {"notes"    :"these are some notes for slide 2"}
     ]
 }

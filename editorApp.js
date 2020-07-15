@@ -39,6 +39,9 @@ const slideContentHandler = ()=>{
                         docContent.innerHTML += '<p></p>';
                         docContent.innerHTML += '<img '+'src='+slideContent+'>';
                     }
+                    else if(slideProperties === 'notes'){
+                        docContent.innerHTML += '<p></p><h2>Notes</h2>'+slideContent;
+                    }
                 }
         
     })
@@ -58,7 +61,7 @@ const slideControllers    = ()=>{
             slideContentHandler();
             return; 
         };
-        notification.innerHTML="";
+        notification.innerHTML = "";
         i -= 1;
         slideContentHandler();
     });
@@ -70,7 +73,7 @@ const slideControllers    = ()=>{
             slideContentHandler();
             return; 
         };
-        notification.innerHTML="";
+        notification.innerHTML = "";
         i += 1;
         slideContentHandler();
     });
