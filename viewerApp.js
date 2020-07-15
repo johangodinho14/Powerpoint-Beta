@@ -8,7 +8,7 @@ const slideContentHandler = ()=>{
     })
     .then((data)=>{
         numOfSlides             = Object.keys(data).length;
-        //Reads through all the slides present
+        //Reads through slides based on user selection
             let docContent      = document.getElementById('content');
             let docTitle        = document.getElementById('title');
             let docSlideNum     = document.getElementById('slideNumber');

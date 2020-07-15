@@ -7,7 +7,7 @@
 
     "slide2":[
         {"title"    :"My favorite animal"},
-        {"content"  :"My favorite animals are \n <li> lions </li> <li> tigers </li> \n and more"},
+        {"content"  :"My favorite animals are <p></p> \n <li> lions </li> <li> tigers </li> \n <p></p> and more"},
         {"img"      :"./images/animals.jpg"}  
     ]
 }

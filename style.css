@@ -49,9 +49,15 @@ p{
 .options-section button:hover{
     opacity: 0.9;
 }
-.options-section img, .content-container img{
+.options-section img{
     width: 20%;
     height: auto;
+}
+.content-container img{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+
 }
 .options-section h1 , .header h1{
     font-size: 50px;
@@ -78,6 +84,7 @@ h2{
     font-size: large;
 }
 .content-container{
+    overflow: hidden;
     position: relative;
     width: 75%;
     height: 60vh;
